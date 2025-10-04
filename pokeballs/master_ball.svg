@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Outer rim -->
+  <circle cx="32" cy="32" r="30" fill="#fff" stroke="#000" stroke-width="4"/>
+  <!-- Purple top half -->
+  <path d="M2 32a30 30 0 0 1 60 0" fill="#7b1fa2"/>
+
+  <!-- Decorative pink side dots (thicker outline) -->
+  <!-- TODO: need to adjust positions to half circle above the M  -->
+  <circle cx="16" cy="18" r="4" fill="#f06292" stroke="#000" stroke-width="2"/>
+  <circle cx="48" cy="18" r="4" fill="#f06292" stroke="#000" stroke-width="2"/>
+  <!-- Bold black band across center -->
+  <rect x="2" y="28" width="60" height="8" fill="#000"/>
+  <!-- Subtle highlight on top half -->
+  <path d="M8 20 C16 8, 48 8, 56 20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Central button with thin black ring for consistency -->
+  <circle cx="32" cy="32" r="11" fill="none" stroke="#000" stroke-width="1"/>
+  <circle cx="32" cy="32" r="10" fill="#fff" stroke="#000" stroke-width="4"/>
+
+  <!-- White 'M' with black outline: draw black stroked path behind a white stroked path to create outline effect -->
+  <path d="M24 16 L28 6 L32 16 L36 6 L40 16" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 16 L28 6 L32 16 L36 6 L40 16" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#fff" stroke="#000" stroke-width="4"/>
+  <path d="M2 32a30 30 0 0 1 60 0" fill="#1976d2"/>
+  <!-- decorative red perpendicular strips toward the center -->
+  <defs>
+    <clipPath id="ballClipGreat">
+      <circle cx="32" cy="32" r="30" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ballClipGreat)">
+    <!-- left red strip -->
+    <rect x="18" y="0" width="7" height="20" fill="#e53935" rx="2" transform="rotate(-30 23 16)"/>
+    <!-- right red strip -->
+    <rect x="39" y="0" width="7" height="20" fill="#e53935" rx="2" transform="rotate(30 42 16)"/>
+  </g>
+  <rect x="2" y="28" width="60" height="8" fill="#000"/>
+  <path d="M8 20 C16 8, 48 8, 56 20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r=" 11" fill="none" stroke="#000" stroke-width="1"/>
+  <circle cx="32" cy="32" r="10" fill="#fff" stroke="#000" stroke-width="4"/>
+</svg>
