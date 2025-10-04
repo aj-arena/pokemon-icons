@@ -1,0 +1,37 @@
+[
+  {
+    "filename": "poke_ball.svg",
+    "name": "Poké Ball",
+    "description": "Standard Poké Ball — white bottom, red top, black belt and central button"
+  },
+  {
+    "filename": "great_ball.svg",
+    "name": "Great Ball",
+    "description": "Great Ball — blue top with red accents and central button"
+  },
+  {
+    "filename": "ultra_ball.svg",
+    "name": "Ultra Ball",
+    "description": "Ultra Ball — black and yellow top pattern with central button"
+  },
+  {
+    "filename": "master_ball.svg",
+    "name": "Master Ball",
+    "description": "Master Ball — purple top with 'M' marking and central button"
+  },
+  {
+    "filename": "premier_ball.svg",
+    "name": "Premier Ball",
+    "description": "Premier Ball — plain white top with black belt and central button"
+  },
+  {
+    "filename": "beast_ball.svg",
+    "name": "Beast Ball",
+    "description": "Beast Ball — dark themed ball with cyan highlights and yellow accents"
+  },
+  {
+    "filename": "park_ball.svg",
+    "name": "Park Ball",
+    "description": "Park Ball — yellow top, blue middle belt, and red/orange center button"
+  }
+]

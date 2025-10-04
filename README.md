@@ -15,6 +15,7 @@ Included files
 - `pokeballs/ultra_ball.svg` - Ultra Ball (SVG)
 - `pokeballs/master_ball.svg` - Master Ball (SVG)
 - `pokeballs/premier_ball.svg` - Premier Ball (SVG)
+- `pokeballs/park_ball.svg` - Park Ball (SVG) — yellow top, blue belt, red/orange center
 
 
 Copyright

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Park Ball styled like the standard Poké Ball geometry but with Park colors -->
+  <!-- Outer white circle (fill only) -->
+  <circle cx="32" cy="32" r="30" fill="#fff" />
+
+  <!-- Top half (yellow) -->
+  <path d="M2 32a30 30 0 0 1 60 0" fill="#f2d56b"/>
+
+  <!-- Blue middle belt (mirrors poke_ball black belt but colored) -->
+  <rect x="2" y="28" width="60" height="8" fill="#2b79c6"/>
+
+  <!-- subtle top highlight arc (like poke_ball's white sheen) -->
+  <path d="M8 20 C16 8, 48 8, 56 20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- center ring and button: red/orange button with white inner circle -->
+  <circle cx="32" cy="32" r="11" fill="none" stroke="#000" stroke-width="1"/>
+  <circle cx="32" cy="32" r="10" fill="#ff6a00" stroke="#000" stroke-width="4"/>
+  <circle cx="32" cy="32" r="5" fill="#ffd07a"/>
+
+  <!-- outer stroke drawn last so belt sits behind it -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#000" stroke-width="4"/>
+</svg>
