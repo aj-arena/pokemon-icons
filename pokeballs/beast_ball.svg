@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <defs>
+    <linearGradient id="beast_grad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3761ad"/>
+      <stop offset="100%" stop-color="#5b8fd6"/>
+    </linearGradient>
+  </defs>
+
+    <!-- TODO: need to fix background pattern -->
+  <!-- outer ring -->
+  <circle cx="50" cy="50" r="48" fill="#0b0b0b" />
+
+  <!-- main body (blue gradient) -->
+  <circle cx="50" cy="50" r="42" fill="url(#beast_grad)" />
+
+  <!-- horizontal cyan band -->
+  <rect x="6" y="44" width="88" height="12" rx="6" fill="#a4eaff" />
+
+  <!-- inner ring (cyan stroke) -->
+  <circle cx="50" cy="50" r="30" fill="none" stroke="#a4eaff" stroke-width="3" opacity="0.95" />
+
+  <!-- These need to be kites with the narrow part toward the center button -->
+  <!-- Black line down the center of the kite -->
+  <g fill="#d8bf27" stroke="#000" stroke-width="0.6" transform="translate(0,0)" opacity="0.95">
+    <path d="M28 36 L12 20 A2 2 0 0 0 10 22 L26 38 Z"/>
+    <path d="M72 36 L88 20 A2 2 0 0 1 90 22 L74 38 Z"/>
+    <path d="M72 64 L88 80 A2 2 0 0 0 90 78 L74 62 Z"/>
+    <path d="M28 64 L12 80 A2 2 0 0 1 10 78 L26 62 Z"/>
+  </g>
+
+  <!-- center button -->
+  <circle cx="50" cy="50" r="15" fill="#00ffff" stroke="#000" stroke-width="2"/>
+  <circle cx="50" cy="50" r="8" fill="#ffffff"/>
+
+  <!-- small highlight -->
+  <ellipse cx="36" cy="34" rx="9" ry="5" fill="#ffffff" opacity="0.12"/>
+</svg>
