@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Net Ball: same structure as poke_ball.svg but with light blue top and black net overlay -->
+  <circle cx="32" cy="32" r="30" fill="#fff" stroke="#000" stroke-width="4"/>
+  <!-- top half light blue -->
+  <path d="M2 32a30 30 0 0 1 60 0" fill="#a6d8ff"/>
+  <!-- black belt -->
+  <rect x="2" y="28" width="60" height="8" fill="#000"/>
+  <!-- subtle highlight -->
+  <path d="M8 20 C16 8, 48 8, 56 20" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- define clip for top semicircle and net overlay: horizontal and diagonal black lines -->
+  <defs>
+    <clipPath id="top-half-clip">
+      <!-- semicircle path covering the top hemisphere -->
+      <path d="M2 32a30 30 0 0 1 60 0L2 32Z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#top-half-clip)" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <!-- TODO: alter diagonal lines to make an X pattern in the shape of a net -->
+    <path d="M14 18 L50 54"/>
+    <path d="M10 22 L46 58"/>
+    <path d="M18 14 L54 50"/>
+    <path d="M6 26 L42 62"/>
+  </g>
+
+  <!-- center ring and button -->
+  <circle cx="32" cy="32" r="11" fill="none" stroke="#000" stroke-width="1"/>
+  <circle cx="32" cy="32" r="10" fill="#fff" stroke="#000" stroke-width="4"/>
+</svg>
